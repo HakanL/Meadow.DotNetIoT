@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Haukcode.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>Haukcode.$(MSBuildProjectName.Replace(" ", "_").Replace(".",""))</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Meadow.Contracts" Version="2.0.1.2" />
+    <PackageReference Include="Meadow.Units" Version="2.0.1.2" />
+    <PackageReference Include="System.Device.Gpio" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>

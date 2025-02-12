@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Haukcode.MeadowDotNetIoT.Haukcode.$(MSBuildProjectName.Replace(" ", "_").Replace(".",""))</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Meadow.Foundation.Displays.TftSpi" Version="2.0.1.2" />
+    <PackageReference Include="System.Device.Gpio" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Meadow.DotNetIoT\Meadow.DotNetIoT.csproj" />
+  </ItemGroup>
+
+</Project>
