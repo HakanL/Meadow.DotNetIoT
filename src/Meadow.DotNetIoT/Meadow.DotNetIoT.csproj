@@ -6,6 +6,13 @@
     <Nullable>enable</Nullable>
     <AssemblyName>Haukcode.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>Haukcode.$(MSBuildProjectName.Replace(" ", "_").Replace(".",""))</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Haukcode Meadow .NET IoT adapter/bridge</Title>
+    <Authors>HakanL</Authors>
+    <Description>Bridge between Wilderness Labs Meadow Foundation and .NET IoT (System.Device.Gpio)</Description>
+    <RepositoryUrl>https://github.com/HakanL/Meadow.DotNetIoT</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
