@@ -18,7 +18,7 @@
   <ItemGroup>
     <PackageReference Include="Meadow.Contracts" Version="2.2.0.2" />
     <PackageReference Include="Meadow.Units" Version="2.2.0.2" />
-    <PackageReference Include="System.Device.Gpio" Version="3.2.0" />
+    <PackageReference Include="System.Device.Gpio" Version="4.0.1" />
   </ItemGroup>
 
 </Project>
